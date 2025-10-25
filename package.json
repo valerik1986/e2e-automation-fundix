@@ -1,0 +1,9 @@
+{
+  "name": "e2e-automation",
+  "private": true,
+  "scripts": {
+    "test:mobile:qa": "cd mobile && cross-env ENV=qa wdio run wdio.conf.js",
+    "test:web": "cd web && npm run test:web",
+    "open:web": "cd web && npm run open:web"
+  }
+}
